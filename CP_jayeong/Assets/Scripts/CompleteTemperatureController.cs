@@ -25,6 +25,7 @@ public class CompleteTemperatureController : MonoBehaviour
         Debug.Log("온도계 시작! 초기 온도: " + temperature + "도");
     }
 
+    // Update is called once per frame
     void Update()
     {
         // 1. 높이 제어 (온도에 비례)
